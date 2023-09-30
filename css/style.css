@@ -1,0 +1,141 @@
+nav #ul_nav{
+    margin: 0;
+    padding: 1%;
+    background-color: aquamarine;
+    /* justify-content: space-evenly; */
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+    
+}
+header{
+    background-color: aquamarine;
+}
+#ul_nav li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    
+}
+#ul_nav li{
+    display: inline-block;
+}
+
+header{
+    font-family: Verdana, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900;
+    
+}
+
+.div_home1{
+    margin-top: 0;
+}
+.h2_home1{
+    font-size: 18pt; color: black;
+    padding: 0.4vw;
+    box-shadow: rgba(137, 43, 226, 0.712) 6px 6px 4px;
+    background-color: rgb(127, 255, 212);
+    width: 10vw;
+    text-align: center;
+}
+.internal_div_home1{
+    border: 1px solid blueviolet;
+    margin-top: -1.7%;
+    padding: 1em;/*em é mais utilizado para fonte, então seria interessante/correto substituir por %*/
+    margin-left: 0.7em;
+    background-color: rgba(180, 180, 180, 0);
+    padding-top: 1em;
+    padding-left: 1em;
+    margin-right: 40vw;
+}
+
+
+.div_home2{
+    margin-top: 0;
+}
+.h2_home2{
+    font-size: 18pt; color: black;
+    padding: 0.4vw;
+    box-shadow: rgba(137, 43, 226, 0.712) 6px 6px 4px;
+    background-color: rgb(127, 255, 212);
+    width: 10vw;
+    text-align: center;
+}
+.internal_div_home2{
+    border: 1px solid blueviolet;
+    margin-top: -1.7%;
+    padding: 1em;
+    margin-left: 0.7em;
+    background-color: rgba(180, 180, 180, 0);
+    padding-top: 1em;
+    padding-left: 1em;
+    margin-right: 40vw;
+}
+
+
+
+
+
+
+
+/*Contato*/
+input:invalid{
+    border: 2px solid rgb(254, 63, 63);
+    background-color: rgba(235, 246, 255, 0.54);
+}
+input:valid{
+    border: 2px solid rgb(22, 196, 126);
+    background-color: rgba(235, 246, 255, 0.54);
+}
+/*input:not(input [type="radio"]){ para retirar do radio e checkbox, mas está incompleto*/
+
+input:focus{
+    border: 3px solid blueviolet;
+    background-color: rgb(190, 222, 250);
+    box-shadow: 3px 5px 0px 0px blueviolet;
+    outline: none;
+}
+
+.div_form{
+    font-size: 24px;
+    margin: 0.5%;
+    padding: 0.1%;
+}
+input{
+    padding: 0.4%;
+    font-size: 16px;
+}
+
+input[type="checkbox"]:checked + label{
+    font-weight: bold;
+}
+input[type="radio"]:checked + label{
+    font-weight: bold;
+}
+    
+
+
+/*Agradecimento*/
+.agradecimento{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 60%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/*aside*/
+
+aside{
+    margin: 10px;
+    padding: 10px;
+    background-color: blueviolet;
+    float: right;   
+    width: 15%;
+    height: 79vh;
+}
