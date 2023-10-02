@@ -1,0 +1,35 @@
+
+h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+table{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    font-size: 18px;
+    background: rgb(255, 255, 255);
+    margin: auto;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    text-align: center;
+    width: 900px;
+    padding:5px;
+}
+.semana > td{
+    background:  #92b3ff;
+}
+
+.semana + tr > td{
+    padding-top:10px;
+}
+.semana + tr + tr > td{
+    padding-bottom:10px;
+}
+
+html{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(109deg, rgba(255, 163, 184, 0.434) 0%, #7AA2FF 100%);
+}
+
