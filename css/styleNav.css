@@ -59,7 +59,7 @@
     }
 }
 
-@media (max-width: 990px){
+@media (max-width: 1012px){
     .header{
         padding: 8px 1.5%;
         flex-direction: column;
