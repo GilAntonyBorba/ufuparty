@@ -32,12 +32,6 @@
     transition: .5s;
     
 }
-.navbar{
-    /* display: flex;
-    justify-content: space-between;
-    justify-content: center;
-    gap: 2rem; */
-}
 
 .navbar a:hover{
     background: linear-gradient(109deg, #FFA3B9 0%, #7AA2FF 100%);
@@ -111,6 +105,15 @@
 
     .navbar a:hover{
         border-left: none;
+    }
+    .header-space {
+        height: 0px; 
+    }
+}
+
+@media screen and (orientation: portrait), screen and (max-height: 480px) {
+    .header{
+        position: static;
     }
     .header-space {
         height: 0px; 
