@@ -16,7 +16,11 @@ body{
     height: 40%;
 }
 
-#agradecido p{
+#segredo:visited{
+    color:red;
+}
+#segredo{
     border-radius: 80px;
     font-size: 120%;
+    text-decoration: none;
 }

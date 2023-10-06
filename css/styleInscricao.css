@@ -28,10 +28,10 @@ form > div > input{
 }
 
 button{
-    width: 20%;
-    height: 20%;
-    font-size: 20px;
+    background-color: white;
+    border-radius: 10px;
 }
+
 #box,#radio  {
     margin: 0 0 20px;
     padding: 10px 30px;
