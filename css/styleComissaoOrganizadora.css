@@ -1,0 +1,219 @@
+.fundo-gradiente{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(109deg, rgba(255, 163, 184, 0.434) 0%, #7AA2FF 100%);
+    padding: 2% 0%;
+}
+.titulo{
+    display: block;
+    padding: 0% 5.5% 2% 5.5%;
+    text-align: center;
+}
+.group-of-cards{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem 0rem;
+}
+
+.card{
+    width: 915px;
+    height: 300px;
+    border: 3.5px solid #ffffff;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.5);
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+}
+#card1{
+    border-radius: 0px 150px 40px 0px;
+    align-self: flex-start;
+    border-left: none;
+}
+#card2{
+    align-self: flex-end;
+    border-radius: 40px 0px 0px 150px;
+    border-right: none;
+}
+
+
+.card img{
+    border-radius: 100%;
+}
+.card h2{
+    color: #000000;
+    font-size: 32px;
+}
+.card p{
+    font-size: 16px;
+}
+
+.subcard{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 3rem 0rem;
+}
+
+
+
+.fundo{
+    width: 100%;
+    height: 100%;
+    padding: 2% 0%;
+}
+#card-organizadores{
+    border-radius: 200px 0px;
+    border: none;
+    background: linear-gradient(109deg, rgba(255, 163, 184, 0.434) 0%, #7AA2FF 100%);
+   
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+}
+/*--------------------------------------------------------------------------------------------------------*/
+
+@media (max-width: 935px){
+    .card{
+        width: 610px;
+        height: 200px;
+    }
+    .card img{
+        width: 141px;
+        height: 141px;
+    }
+    .card h2{
+        font-size: 24px;
+    }
+    .card p{
+        font-size: 16px;
+    }
+    
+}
+@media (max-width: 630px){
+    .titulo{
+        font-size: 28px;
+    }
+    .card{
+        width: 457.5px;
+        height: 150px;
+    }
+    .card img{
+        width: 106px;
+        height: 106px;
+    }
+    .card h2{
+        font-size: 20px;
+    }
+    .card p{
+        font-size: 16px;
+    }
+    .subcard{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 0.5rem 0rem;
+    } 
+}
+@media (max-width: 480px){
+    .titulo{
+        font-size: 24px;
+    }
+    .card{
+        width: 305px;
+        height: 100px;
+    }
+    .card img{
+        width: 70px;
+        height: 70px;
+    }
+    .card h2{
+        font-size: 16px;
+    }
+    .card p{
+        font-size: 12px;
+    }
+    .subcard{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 0.5rem 0rem;
+    } 
+}
+/* 
+@media (max-width: 1145px){
+    #presentation img {
+        width: 500px; 
+        height: auto; 
+    }
+}
+
+@media (max-width: 862px){
+    #presentation img {
+        width: 400px; 
+        height: auto; 
+    }
+
+    #h1-presentation{
+        font-size: 40px;
+    }
+    #h2-presentation{
+        font-size: 24px;
+    }
+}
+
+
+@media (max-width: 785px){
+    #presentation img {
+        width: 400px; 
+        height: auto; 
+    }
+
+    #h1-presentation{
+        font-size: 40px;
+    }
+    #h2-presentation{
+        font-size: 24px;
+        font-weight: 500;
+    }
+}
+
+@media (max-width: 675px){
+    #presentation img {
+        width: 300px; 
+        height: auto; 
+    }
+
+    #h1-presentation{
+        font-size: 32px;
+    }
+    #h2-presentation{
+        font-size: 24px;
+        font-weight: 500;
+    }
+}
+@media (max-width: 675px){
+    #presentation img {
+        width: 200px; 
+        height: auto; 
+    }
+
+    #h1-presentation{
+        font-weight: 550;
+    }
+    #h2-presentation{
+        font-weight: 500;
+    }
+
+    #presentation{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        flex-wrap: wrap;
+        
+    }
+} */
